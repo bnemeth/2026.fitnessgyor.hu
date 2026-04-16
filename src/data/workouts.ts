@@ -34,7 +34,7 @@ export const workouts: Workout[] = [
       },
       {
         title: "Milyen egy Kettlebell edzés?",
-        content: "A kettlebell edzéseken senki sem marad le!",
+        content: "Nagyon nehezen találom ki ezeket a leírásokat, általában edzek inkább helyette.",
       },
     ],
     trainer: "Néma Veronika",
@@ -58,7 +58,7 @@ export const workouts: Workout[] = [
       },
       {
         title: "Milyen egy TRX edzés?",
-        content: "A TRX-es edzésnél a saját testünket használjuk ellenállásként és az intenzitást is mi magunk határozzuk meg, így lehetséges, hogy ugyanazt az eszközt használja egy elit katona és egy modell is. Egy TRX-es edzés sokkal intenzívebb, mint egy cardio edzés, sokkal több kalóriát égetünk el rövidebb idő alatt és az anyagcserét is annyira felpörgeti, hogy az edzés utáni regenerációra (a szervezetünk visszaállása az egyensúlyi állapotba) legalább annyi kalóriát égetünk el, mint edzés közben. Egy zsírégető cardio edzés utóégető hatása ehhez képest minimális.",
+        content: "A TRX-es edzésnél a saját testünket használjuk ellenállásként és az intenzitást is mi magunk határozzuk meg, így lehetséges, hogy ugyanazt az eszközt használja egy elit katona és egy modell is.\n\nEgy TRX-es edzés sokkal intenzívebb, mint egy cardio edzés, sokkal több kalóriát égetünk el rövidebb idő alatt és az anyagcserét is annyira felpörgeti, hogy az edzés utáni regenerációra (a szervezetünk visszaállása az egyensúlyi állapotba) legalább annyi kalóriát égetünk el, mint edzés közben. Egy zsírégető cardio edzés utóégető hatása ehhez képest minimális.",
       },
     ],
     trainer: "Néma Veronika",
@@ -128,7 +128,7 @@ export const workouts: Workout[] = [
       },
       {
         title: "Milyen egy köredzés?",
-        content: "A köredzés egy edzésforma, amely számos különböző gyakorlatot tartalmaz, amelyeket egymás után végzel el több körben.",
+        content: "A köredzés egy edzésforma, amely számos különböző gyakorlatot tartalmaz, amelyeket egymás után végzel el több körben. Minden körben általában ugyanazokat a gyakorlatokat hajtod végre, de lehetnek különféle variációk és súlyok.",
       },
     ],
     trainer: "Néma Veronika",

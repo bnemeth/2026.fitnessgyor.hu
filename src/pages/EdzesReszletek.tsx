@@ -53,7 +53,11 @@ const EdzesReszletek = () => {
             {workout.sections.map((section) => (
               <div key={section.title} className="bg-card border border-border rounded-xl p-8 md:p-12 mb-6">
                 <h2 className="font-display text-2xl uppercase font-bold mb-4 text-primary">{section.title}</h2>
-                <p className="text-foreground/90 leading-relaxed">{section.content}</p>
+                <div className="text-foreground/90 leading-relaxed space-y-4">
+                  {section.content.split("\n\n").map((p, i) => (
+                    <p key={i}>{p}</p>
+                  ))}
+                </div>
               </div>
             ))}
 

@@ -48,7 +48,7 @@ const Kapcsolat = () => {
 
             <div className="bg-card border border-border rounded-xl p-8 mb-16">
               <p className="text-foreground/90 text-center text-lg">
-                Az időpont nem lehet akadály! Hétfőtől péntekig több mint 25 edzést tartok, ezért mindig találhatsz számodra megfelelőt délelőtt, délután de akár az ebédszünetben is!
+                Az időpont nem lehet akadály! Hétfőtől péntekig több mint 25 edzést tartok, ezért mindig találhatsz számodra megfelelőt délelőtt és délután is.
               </p>
             </div>
           </div>

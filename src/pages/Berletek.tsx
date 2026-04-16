@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import { CheckCircle, Clock, AlertTriangle, Gift, CreditCard } from "lucide-react";
+import { CheckCircle, Clock, AlertTriangle, Gift } from "lucide-react";
 
 const plans = [
   {
@@ -62,11 +62,6 @@ const rules = [
     title: "Ajánlói bónusz",
     text: "Ha új tanítványt hozol aki bérletet vásárol, kapsz egy ajándék edzést!",
   },
-  {
-    icon: CreditCard,
-    title: "SZÉP kártya",
-    text: "Jelenleg nem lehet SZÉP kártyával fizetni.",
-  },
 ];
 
 const Berletek = () => {
@@ -111,9 +106,9 @@ const Berletek = () => {
             </div>
 
             <h2 className="font-display text-3xl md:text-4xl font-bold uppercase text-center mb-12">
-              Tudni<span className="text-gradient">valók</span>
+              Tudnivalók
             </h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
               {rules.map((rule) => (
                 <div key={rule.title} className="bg-card border border-border rounded-xl p-6">
                   <rule.icon className="w-8 h-8 text-primary mb-4" />
