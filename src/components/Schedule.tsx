@@ -106,7 +106,7 @@ const Schedule = () => {
           </div>
           <div className="bg-card border border-border rounded-xl p-8 text-left">
             <Users className="w-8 h-8 text-primary mb-4" />
-            <h3 className="font-display text-xl uppercase font-semibond mb-2">Kis csoportok</h3>
+            <h3 className="font-display text-xl uppercase font-semibold mb-2">Kis csoportok</h3>
             <p className="text-muted-foreground">6-10 fős foglalkozások, bejelentkezés szükséges. Ez az első lépés a formába hozáshoz!</p>
           </div>
         </div>

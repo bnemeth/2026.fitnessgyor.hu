@@ -11,7 +11,7 @@ const Kapcsolat = () => {
         <section className="py-24 px-4">
           <div className="max-w-4xl mx-auto">
             <h1 className="font-display text-4xl md:text-6xl font-bold uppercase text-center mb-4">
-              Kap<span className="text-gradient">csolat</span>
+              Kapcsolat
             </h1>
             <p className="text-muted-foreground text-center max-w-2xl mx-auto mb-16">
               Az edzésekkel kapcsolatos kérdésekkel, időpont egyeztetésért keress személyesen a teremben, telefonon, email-en, vagy akár a Facebook-on.

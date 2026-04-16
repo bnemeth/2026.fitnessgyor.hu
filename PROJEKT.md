@@ -64,9 +64,9 @@ A meglévő honlap egy **one-pager** — az összes tartalom a főoldalon van, s
 - [x] Alap projekt struktúra (Lovable generálta)
 - [x] npm install + build ellenőrzés ✅
 - [ ] Google Maps koordináta javítása (jelenleg placeholder)
-- [ ] logo.jpg bekötése (ha szükséges)
-- [ ] Dark mode döntés (megtartjuk vagy elhagyjuk?)
-- [ ] Felesleges import eltávolítása (Schedule.tsx)
+- [x] logo.jpg bekötése — megvan, be van kötve
+- [x] Dark mode döntés — marad
+- [x] Felesleges import eltávolítása (Schedule.tsx) — nincs felesleges, minden import használt
 - [ ] Böngészős vizuális átvizsgálás és finomhangolás
 - [ ] Produkciós build + deployment
 
