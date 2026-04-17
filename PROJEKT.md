@@ -70,5 +70,22 @@ A meglévő honlap egy **one-pager** — az összes tartalom a főoldalon van, s
 - [ ] Böngészős vizuális átvizsgálás és finomhangolás
 - [ ] Produkciós build + deployment
 
+## Deploy
+
+**Firebase Hosting** — projekt: `www-fitnessgyor-hu`
+
+```bash
+# 1. Build (lefordítja a forráskódot a dist/ mappába)
+npm run build
+
+# 2. Deploy
+firebase deploy --only hosting
+```
+
+Első alkalommal szükséges: `firebase login`
+
+**Saját domain** (`fitnessgyor.hu`) bekötése: Firebase Console → Hosting → Custom domain.
+
 ## Beszélgetés összefoglalója
 - **2026-04-15:** Projekt indítás. One-pager honlap, meglévő tartalom és struktúra alapján, megújult dizájnnal. Nulláról fejlesztjük.
+- **2026-04-17:** Firebase Hosting bekötve (`www-fitnessgyor-hu` projekt), deploy folyamat dokumentálva.
