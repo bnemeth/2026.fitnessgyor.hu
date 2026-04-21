@@ -5,7 +5,7 @@ import { Toaster as Sonner } from "@/components/ui/sonner";
 import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import Index from "./pages/Index";
-import Edzesek from "./pages/Edzesek";
+import Orarend from "./pages/Orarend";
 import Berletek from "./pages/Berletek";
 import Rolam from "./pages/Rolam";
 import Kapcsolat from "./pages/Kapcsolat";
@@ -26,7 +26,7 @@ const App = () => (
           <ScrollToTop />
           <Routes>
             <Route path="/" element={<Index />} />
-            <Route path="/edzesek" element={<Edzesek />} />
+            <Route path="/orarend" element={<Orarend />} />
             <Route path="/edzes/:slug" element={<EdzesReszletek />} />
             <Route path="/berletek" element={<Berletek />} />
             <Route path="/rolam" element={<Rolam />} />

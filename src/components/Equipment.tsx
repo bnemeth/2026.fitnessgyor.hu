@@ -5,7 +5,7 @@ const Equipment = () => {
     <section id="felszereles" className="py-24 px-4">
       <div className="max-w-4xl mx-auto">
         <h2 className="font-display text-4xl md:text-6xl font-bold uppercase text-center mb-12">
-          Fel<span className="text-gradient">szerelés</span>
+          Felszerelés
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
           <div className="bg-card border border-border rounded-xl p-6">
@@ -24,10 +24,11 @@ const Equipment = () => {
             <p className="text-muted-foreground text-sm">Gyűrű, nyaklánc viselése veszélyes edzés közben. Inkább hagyd otthon!</p>
           </div>
         </div>
-        <blockquote className="border-l-4 border-primary pl-6 py-2 max-w-lg mx-auto">
-          <p className="text-lg italic text-foreground/80">"Még sosem fáradtam el ennyire!"</p>
-          <footer className="text-muted-foreground mt-2">— István / Minden edzés után</footer>
-        </blockquote>
+        <div className="bg-card border border-border rounded-xl p-6 text-center max-w-lg mx-auto">
+          <p className="text-muted-foreground">
+            Kényelmes sportruha és lapostalpú cipő — ennyi kell. Minden más eszköz a teremben van!
+          </p>
+        </div>
       </div>
     </section>
   );

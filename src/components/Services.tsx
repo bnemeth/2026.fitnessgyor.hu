@@ -51,7 +51,7 @@ const Services = () => {
     <section id="edzesek" className="py-24 px-4">
       <div className="max-w-6xl mx-auto">
         <h2 className="font-display text-4xl md:text-6xl font-bold uppercase text-center mb-4">
-          Edz<span className="text-gradient">ések</span>
+          Edzések
         </h2>
         <p className="text-muted-foreground text-center max-w-2xl mx-auto mb-6">
           Olyan edzéseket tartok, amit magam is szívesen csinálok. Ezeket választottam mikor két gyerek után újra edzeni kezdtem, de akkor is része volt a felkészülésemnek amikor Magyar Bajnoki címért eveztem.

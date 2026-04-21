@@ -2,7 +2,7 @@ import Navbar from "@/components/Navbar";
 import Schedule from "@/components/Schedule";
 import Footer from "@/components/Footer";
 
-const Edzesek = () => {
+const Orarend = () => {
   return (
     <div className="min-h-screen">
       <Navbar />
@@ -14,4 +14,4 @@ const Edzesek = () => {
   );
 };
 
-export default Edzesek;
+export default Orarend;

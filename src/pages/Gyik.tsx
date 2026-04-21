@@ -13,7 +13,7 @@ const faqSections = [
     items: [
       {
         q: "Miért kell bejelentkezni az edzésekre?",
-        a: "Kis csoportos foglalkozások vannak, egyszerre 6-8-10 fő fér el.",
+        a: "Kiscsoportos foglalkozások vannak, egyszerre 6-8-10 fő fér el.",
       },
       {
         q: "Hogy lehet bejelentkezni?",

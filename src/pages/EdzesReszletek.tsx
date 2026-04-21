@@ -18,7 +18,7 @@ const EdzesReszletek = () => {
         <Navbar />
         <div className="pt-32 text-center px-4">
           <h1 className="font-display text-3xl font-bold mb-4">Edzés nem található</h1>
-          <Link to="/edzesek" className="text-primary hover:underline">← Vissza az edzésekhez</Link>
+          <Link to="/orarend" className="text-primary hover:underline">← Vissza az órarendhez</Link>
         </div>
         <Footer />
       </div>

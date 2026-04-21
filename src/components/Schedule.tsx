@@ -91,25 +91,12 @@ const Schedule = () => {
     <section id="idopontok" className="py-24 px-4">
       <div className="max-w-6xl mx-auto">
         <h2 className="font-display text-4xl md:text-6xl font-bold uppercase text-center mb-4">
-          Edzés <span className="text-gradient">időpontok</span>
+          Órarend
         </h2>
         <p className="text-muted-foreground text-center max-w-2xl mx-auto mb-12">
           Az időpont nem lehet akadály! Hétfőtől péntekig több mint 25 edzést tartok,
-          ezért mindig találhatsz számodra megfelelőt délelőtt, délután de akár az ebédszünetben is!
+          ezért mindig találhatsz számodra megfelelőt délelőtt és délután is!
         </p>
-
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-12">
-          <div className="bg-card border border-border rounded-xl p-8 text-left">
-            <Calendar className="w-8 h-8 text-primary mb-4" />
-            <h3 className="font-display text-xl uppercase font-semibold mb-2">Hétfő – Péntek</h3>
-            <p className="text-muted-foreground">Több mint 25 edzés hetente, délelőtt, délután és ebédidőben is.</p>
-          </div>
-          <div className="bg-card border border-border rounded-xl p-8 text-left">
-            <Users className="w-8 h-8 text-primary mb-4" />
-            <h3 className="font-display text-xl uppercase font-semibold mb-2">Kis csoportok</h3>
-            <p className="text-muted-foreground">6-10 fős foglalkozások, bejelentkezés szükséges. Ez az első lépés a formába hozáshoz!</p>
-          </div>
-        </div>
 
         {/* Desktop: 5 columns, Mobile: stacked */}
         <div className="hidden md:grid grid-cols-5 gap-3">
@@ -170,6 +157,19 @@ const Schedule = () => {
               </div>
             </div>
           ))}
+        </div>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-12">
+          <div className="bg-card border border-border rounded-xl p-8 text-left">
+            <Calendar className="w-8 h-8 text-primary mb-4" />
+            <h3 className="font-display text-xl uppercase font-semibold mb-2">Hétfő – Péntek</h3>
+            <p className="text-muted-foreground">Több mint 25 edzés hetente, délelőtt és délután is.</p>
+          </div>
+          <div className="bg-card border border-border rounded-xl p-8 text-left">
+            <Users className="w-8 h-8 text-primary mb-4" />
+            <h3 className="font-display text-xl uppercase font-semibold mb-2">Kis csoportok</h3>
+            <p className="text-muted-foreground">6-10 fős foglalkozások, bejelentkezés szükséges. Ez az első lépés a formába hozáshoz!</p>
+          </div>
         </div>
       </div>
     </section>

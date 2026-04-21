@@ -5,13 +5,13 @@ const Location = () => {
     <section id="helyszin" className="py-24 px-4 bg-card/50">
       <div className="max-w-4xl mx-auto text-center">
         <h2 className="font-display text-4xl md:text-6xl font-bold uppercase mb-12">
-          Hely<span className="text-gradient">szín</span>
+          Helyszín
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
           <div className="bg-card border border-border rounded-xl p-8 text-left">
             <MapPin className="w-8 h-8 text-primary mb-4" />
             <h3 className="font-display text-xl uppercase font-semibold mb-2">Cím</h3>
-            <p className="text-muted-foreground">József Attila utca 129, Győr<br />A festékbolt felett, első emelet.</p>
+            <p className="text-muted-foreground">József Attila utca 129, Győr<br />Első emelet.</p>
           </div>
           <div className="bg-card border border-border rounded-xl p-8 text-left">
             <Car className="w-8 h-8 text-primary mb-4" />

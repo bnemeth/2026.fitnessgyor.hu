@@ -1,4 +1,5 @@
 import logo from "@/assets/logo.jpg";
+import { Link } from "react-router-dom";
 import { Phone } from "lucide-react";
 
 const Hero = () => {
@@ -31,6 +32,12 @@ const Hero = () => {
             <Phone className="w-5 h-5" />
             06 70 510 44 40
           </a>
+          <Link
+            to="/orarend"
+            className="inline-flex items-center gap-2 border border-foreground/20 text-foreground font-display text-lg uppercase tracking-wider px-8 py-4 rounded-lg hover:border-primary hover:text-primary transition-all duration-300"
+          >
+            Órarend
+          </Link>
           <a
             href="#edzesek"
             className="inline-flex items-center gap-2 border border-foreground/20 text-foreground font-display text-lg uppercase tracking-wider px-8 py-4 rounded-lg hover:border-primary hover:text-primary transition-all duration-300"

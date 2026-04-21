@@ -25,7 +25,7 @@ const Rolam = () => {
               Néma <span className="text-gradient">Veronika</span>
             </h1>
             <p className="text-muted-foreground text-center max-w-2xl mx-auto mb-16">
-              13 éves korom óta evezek, többszörös korosztályos magyar bajnok, ifjúsági VB 5. helyezett és felnőtt magyar bajnok címet szereztem. 2008 óta tartok kis csoportos erőnléti edzéseket.
+              13 éves korom óta evezek, többszörös korosztályos magyar bajnok, ifjúsági VB 5. helyezett és felnőtt magyar bajnok címet szereztem. 2008 óta tartok kiscsoportos erőnléti edzéseket.
             </p>
 
             {/* Múlt */}
@@ -54,7 +54,7 @@ const Rolam = () => {
             </div>
 
             {/* Idézet */}
-            <blockquote className="border-l-4 border-primary pl-6 py-4 my-8 max-w-2xl mx-auto">
+            <blockquote className="border-l-4 border-primary pl-6 py-4 my-8">
               <p className="text-lg italic text-foreground/80 mb-2">
                 "Tavaly komoly térdműtétem volt, ez év elején kezdtem el nála rehabilitációs edzéseket a TRX-szel. Ma már nagyon jó edzettséggel bírok, a lábam tökéletes!"
               </p>

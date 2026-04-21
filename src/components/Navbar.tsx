@@ -6,7 +6,7 @@ import logo from "@/assets/logo.jpg";
 
 const navItems = [
   { label: "Helló", href: "/" },
-  { label: "Edzések", href: "/edzesek" },
+  { label: "Órarend", href: "/orarend" },
   { label: "Bérletek & árak", href: "/berletek" },
   { label: "Rólam", href: "/rolam" },
   { label: "Kapcsolat", href: "/kapcsolat" },
