@@ -13,6 +13,7 @@ import Gyik from "./pages/Gyik";
 import EdzesReszletek from "./pages/EdzesReszletek";
 import NotFound from "./pages/NotFound";
 import ScrollToTop from "./components/ScrollToTop";
+import MobileCallBar from "./components/MobileCallBar";
 
 const queryClient = new QueryClient();
 
@@ -24,6 +25,7 @@ const App = () => (
         <Sonner />
         <BrowserRouter>
           <ScrollToTop />
+          <MobileCallBar />
           <Routes>
             <Route path="/" element={<Index />} />
             <Route path="/orarend" element={<Orarend />} />

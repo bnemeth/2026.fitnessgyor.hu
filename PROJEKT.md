@@ -89,3 +89,4 @@ Első alkalommal szükséges: `firebase login`
 ## Beszélgetés összefoglalója
 - **2026-04-15:** Projekt indítás. One-pager honlap, meglévő tartalom és struktúra alapján, megújult dizájnnal. Nulláról fejlesztjük.
 - **2026-04-17:** Firebase Hosting bekötve (`www-fitnessgyor-hu` projekt), deploy folyamat dokumentálva.
+- **2026-04-23:** Mobil optimalizálás. Zöld lebegő hívás gomb (FAB) jobb alsó sarokba (`lg:hidden`), Hero szekció mobilon felülről indul (kevesebb hely a logó felett), touch target javítás a hamburger menün és ThemeToggle-ön, mobilos menüpontok megfelelő mérete.

@@ -53,7 +53,7 @@ const Navbar = () => {
           <ThemeToggle />
           <button
             onClick={() => setOpen(!open)}
-            className="text-foreground"
+            className="flex items-center justify-center min-w-[44px] min-h-[44px] text-foreground"
             aria-label="Menü"
           >
             {open ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
@@ -61,13 +61,13 @@ const Navbar = () => {
         </div>
       </div>
       {open && (
-        <div className="lg:hidden bg-background border-t border-border px-4 py-4 space-y-4">
+        <div className="lg:hidden bg-background border-t border-border px-4 py-2 space-y-1">
           {navItems.map((item) => (
             <Link
               key={item.href}
               to={item.href}
               onClick={() => setOpen(false)}
-              className={`block font-display text-sm uppercase tracking-wider transition-colors ${
+              className={`flex items-center py-2.5 font-display text-sm uppercase tracking-wider transition-colors ${
                 location.pathname === item.href
                   ? "text-primary"
                   : "text-muted-foreground hover:text-primary"
