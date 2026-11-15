@@ -1,4 +1,4 @@
-import { Dumbbell, Heart, Zap, StretchHorizontal, Timer, Activity, Wind } from "lucide-react";
+import { Dumbbell, Heart, Zap, StretchHorizontal, Timer, Activity, Wind, PersonStanding } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const services = [
@@ -43,6 +43,12 @@ const services = [
     title: "Kardió",
     slug: "kardio",
     description: "Állóképességi edzés, ha nem szeretsz futni.",
+  },
+  {
+    icon: PersonStanding,
+    title: "Pilates",
+    slug: "pilates",
+    description: "Erős közép, egyenes tartás, tudatos mozgás.",
   },
 ];
 

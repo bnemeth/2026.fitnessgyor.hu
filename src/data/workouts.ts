@@ -180,6 +180,29 @@ export const workouts: Workout[] = [
     trainer: "Néma Veronika",
     trainerTitle: "Polar kardiotréner",
   },
+  {
+    slug: "pilates",
+    title: "Pilates",
+    subtitle: "A pilates a test közepéből induló, kontrollált mozgásokra épülő edzésforma, amely erősíti a mélyizmokat, javítja a testtartást és összhangot teremt a test és a légzés között.",
+    description: "Erős közép, egyenes tartás, tudatos mozgás.",
+    icon: "PersonStanding",
+    sections: [
+      {
+        title: "Mire jó a pilates?",
+        content: "A pilates erősíti a törzs mélyizmait – a has-, hát- és medencefenék izmait –, amelyek a gerinc stabilitásáért felelnek. Rendszeres gyakorlással javul a testtartás, csökkenhetnek a derék- és hátfájdalmak, nő a rugalmasság és a mozgáskoordináció.\n\nKiváló kiegészítője az erőedzéseknek: a stabil törzs biztonságosabbá és hatékonyabbá teszi a kettlebell, TRX vagy cross training gyakorlatokat is.",
+      },
+      {
+        title: "Mi az a pilates?",
+        content: "A pilates módszert Joseph Pilates dolgozta ki a 20. század elején. Alapelvei a koncentráció, a kontroll, a pontosság, a légzés és a mozgás folyamatossága. A gyakorlatok nem a gyorsaságról vagy a nagy ismétlésszámról szólnak, hanem arról, hogy minden mozdulatot tudatosan, a megfelelő izmokkal végezz.",
+      },
+      {
+        title: "Milyen egy pilates edzés?",
+        content: "Az óra nagyrészt matracon zajlik, saját testsúllyal, időnként kiegészítő eszközökkel. Átmozgató bemelegítés után jönnek a törzserősítő, stabilizáló és nyújtó gyakorlatok, mindig a légzéssel összehangolva. A gyakorlatok minden edzettségi szinten végezhetők, a nehézséget magadhoz igazíthatod – de ne tévesszen meg a lassú tempó, a mélyizmok másnap is emlékezni fognak!",
+      },
+    ],
+    trainer: "Néma Veronika",
+    trainerTitle: "GerincPilates Testtartás és Testegyensúly Komplex Pilates Talaj Oktató",
+  },
 ];
 
 export function getWorkoutBySlug(slug: string): Workout | undefined {

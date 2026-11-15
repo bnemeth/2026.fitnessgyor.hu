@@ -2,6 +2,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 const qualifications = [
+  "GerincPilates Testtartás és Testegyensúly Komplex Pilates Talaj Oktató — 2026",
   "TripleX tréner — 2023",
   "Aerial jóga oktató — 2017",
   "Medical flossing, kineziotape — 2017",

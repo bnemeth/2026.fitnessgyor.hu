@@ -1,11 +1,11 @@
 import { useParams, Link } from "react-router-dom";
-import { User, Dumbbell, Heart, Zap, StretchHorizontal, Timer, Activity, Wind } from "lucide-react";
+import { User, Dumbbell, Heart, Zap, StretchHorizontal, Timer, Activity, Wind, PersonStanding } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { getWorkoutBySlug, workouts } from "@/data/workouts";
 
 const iconMap: Record<string, React.ElementType> = {
-  Dumbbell, Heart, Zap, StretchHorizontal, Timer, Activity, Wind,
+  Dumbbell, Heart, Zap, StretchHorizontal, Timer, Activity, Wind, PersonStanding,
 };
 
 const EdzesReszletek = () => {

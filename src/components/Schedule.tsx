@@ -1,4 +1,4 @@
-import { Calendar, Users, Dumbbell, StretchHorizontal, Heart, Zap, Timer, Activity, Wind, LucideIcon } from "lucide-react";
+import { Calendar, Users, Dumbbell, StretchHorizontal, Heart, Zap, Timer, Activity, Wind, PersonStanding, LucideIcon } from "lucide-react";
 import { Link } from "react-router-dom";
 
 type ScheduleEntry = {
@@ -9,7 +9,7 @@ type ScheduleEntry = {
 const schedule: Record<string, ScheduleEntry[]> = {
   Hétfő: [
     { name: "Kettlebell", time: "8:00–9:00" },
-    { name: "Kardió", time: "9:00–10:00" },
+    { name: "Pilates", time: "9:00–10:00" },
     { name: "Kettlebell", time: "16:50–17:50" },
     { name: "TRX", time: "17:50–18:50" },
     { name: "Kettlebell", time: "19:00–20:00" },
@@ -17,7 +17,6 @@ const schedule: Record<string, ScheduleEntry[]> = {
   ],
   Kedd: [
     { name: "Cross Training", time: "8:00–9:00" },
-    { name: "Mobilizáció", time: "9:00–10:00" },
     { name: "Kardió", time: "16:50–17:50" },
     { name: "TRX", time: "17:50–18:50" },
     { name: "Kettlebell", time: "19:00–20:00" },
@@ -39,6 +38,7 @@ const schedule: Record<string, ScheduleEntry[]> = {
   Péntek: [
     { name: "Mobilizáció", time: "8:00–9:00" },
     { name: "Kettlebell", time: "9:00–10:00" },
+    { name: "Pilates", time: "16:50–17:50" },
     { name: "Cross Training", time: "18:00–19:00" },
     { name: "Mobilizáció", time: "19:00–20:00" },
   ],
@@ -69,6 +69,7 @@ const nameToSlug: Record<string, string> = {
   Mobilizáció: "mobilizacio",
   Köredzés: "koredzes",
   Jóga: "joga",
+  Pilates: "pilates",
 };
 
 const nameToIcon: Record<string, LucideIcon> = {
@@ -79,6 +80,7 @@ const nameToIcon: Record<string, LucideIcon> = {
   Mobilizáció: Activity,
   Köredzés: Timer,
   Jóga: Heart,
+  Pilates: PersonStanding,
 };
 
 const WorkoutIcon = ({ name, className }: { name: string; className?: string }) => {
